@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
   return (
     <div>
@@ -10,7 +12,9 @@ export function Header() {
             <h3 className="header-subtitle">fırsatı kaçırma</h3>
             <h1 className="header-title header-title1-pos">KOD ACIKTIRIR</h1>
             <h1 className="header-title header-title2-pos">PIZZA, DOYURUR</h1>
-            <button className="header-button">ACIKTIM</button>
+            <Link to="/order">
+              <button className="header-button">ACIKTIM</button>
+            </Link>
         </div>
     </div>
   );
