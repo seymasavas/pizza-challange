@@ -13,7 +13,7 @@ export function Header() {
             <h1 className="header-title header-title1-pos">KOD ACIKTIRIR</h1>
             <h1 className="header-title header-title2-pos">PIZZA, DOYURUR</h1>
             <Link to="/order">
-              <button className="header-button">ACIKTIM</button>
+              <button className="header-button"  style={{ color: "#292929" }}>ACIKTIM</button>
             </Link>
         </div>
     </div>
