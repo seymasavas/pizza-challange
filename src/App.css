@@ -448,7 +448,7 @@ nav li {
   position: absolute;
   width: 408px;
   height: 46px;
-  top: -9px;
+  top: 480px;
   left: 300px;
   opacity: 1;
   transform: rotate(0deg);
@@ -470,7 +470,7 @@ nav li {
   position: absolute;
   width: 812px;
   height: 76px;
-  top: 30px;
+  top: 520px;
   left: 100px;
   margin: 0;
   font-family: 'Barlow', sans-serif;
